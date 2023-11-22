@@ -1,0 +1,102 @@
+body {
+    box-sizing: border-box;
+}
+/* тело */
+body {
+    width: 70%;
+    margin: 0 auto;
+}
+/* заголовок сайта */
+.header {
+    color: #594fc7;
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+/* секция с блоками */
+.container {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* блоки */
+.block {
+    width: 45%;
+    background-color: #fff;
+    filter: drop-shadow(0px 0px 20px rgba(38, 38, 38, 0.16));
+    margin: 10px;
+    position: relative;
+}
+/* контент блоков */
+.block-content {
+    width: 100%;
+    padding-left: 15px;
+}
+/* картинки */
+img {
+    width: 100%;
+    height: 200px;
+}
+/* подзаголовки блоков */
+h2 {
+color: #594fc7;
+font-size: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* текст внутри блока */
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 0.5;
+}
+/* номер блока */
+.number {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    color: #0000003b;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* footer */
+footer {
+    text-align: center;
+}
+/* кнопка */
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 30px 30px;
+    border: 3px solid #594fc7;
+    border-radius: 20px;
+    font-size: 28px;
+    color: #000;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  button:hover {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #594fc7;
+    color: #fff;
+    border: none;
+  }
+  
+  button:active {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #3d368a;
+    color: #fff;
+    border: none;
+  }
